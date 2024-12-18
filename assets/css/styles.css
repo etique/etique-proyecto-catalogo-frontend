@@ -1,0 +1,53 @@
+body {
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "main";
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 1fr;
+}
+
+main {
+    /* background-color: blue; */
+    grid-area: main;
+    padding: 200px;
+    overflow-y: auto;
+}
+
+header {
+    /* background-color: blueviolet; */
+    grid-area: header;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+form {
+    width: 450px;
+}
+
+#paginacion {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px
+}
+
+#paginacion h2 {
+    width: 32px;
+    height: 32px;
+    text-align: center;
+}
+
+#card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.card img {
+    height: 100%;
+    object-fit: contain;
+}

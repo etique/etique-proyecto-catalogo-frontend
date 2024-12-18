@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  color: #cf1515; /* red - green - blue */
+  text-transform: uppercase;
+  text-align: left;
+  display: flex;
+  justify-content: space-around;
+}
+
+h2 {
+  font-size: 20px;
+  background-color: #b8aaa4;
+  margin: 30px;
+  text-align: left;
+}
+
+.texto-personalizado {
+  background-color: rgb(162, 162, 167);
+}
+.card img {
+  height: 100%;
+  object-fit: contain;
+}
+
+#card-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 100px;
+  padding: 15px;
+  place-items: center;
+}
+#paginacion{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+
+}
+
+
+#span-principal {
+  color: #b31336;
+  text-align: center;
+}
+#grupmas-1 {
+  background-color: rgb(105, 105, 110);
+}
+#grupmas-2 {
+  background-color: rgb(105, 105, 110);
+}
+.container-text {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  background-color: #ffffff;
+  padding: 50px;
+}
+
+#card-container-1 {
+  padding: 25px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;  
+  place-items: center;
+}
+
+.card div:nth-child(1){
+  width: 100%;
+  height: 250px;
+
+}
+
+.card img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+
+.card {
+  width: 100%;
+}
+
+.images {
+  width: 200px;
+  height: 200px;
+}
+.text-width {
+  font-size: 1.2em;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+table {
+  margin: auto;
+}
+#img {
+  width: 400;
+  height: 600;
+  margin: 0;
+}
